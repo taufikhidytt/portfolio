@@ -143,20 +143,9 @@
                 <input type="email" class="form-control" id="email" placeholder="masukan email">
               </div>
               <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="masukan password">
-              </div>
-              <div class="form-group">
                 <label for="telp">Nomor Telpon</label>
                 <input type="telp" class="form-control" id="telp" placeholder="masukan nomor telpon">
               </div>
-              <select class="form-control">
-                <option>--> Riwayat Pendidikan <--</option>
-                <option>SDN Cipari 1</option>
-                <option>SMPN 01 Panongan</option>
-                <option>SMK Miftahul Jannah</option>
-                <option>Universitas Raharja</option>
-              </select>
               <div class="form-group">
                 <label for="pesan">Pesan</label>
                 <textarea class="form-control" rows="7" placeholder="masukan pesan"></textarea>
