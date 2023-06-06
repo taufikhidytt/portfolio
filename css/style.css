@@ -1,0 +1,68 @@
+html{
+  position: relative;
+}
+body{
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.jumbotron {
+  background-image:url('../img/lucas-brito-1092206-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  background-attachment: fixed;
+}
+.jumbotron img {
+  width: 200px;
+  border: 7px solid white;
+}
+.jumbotron h1, h3{
+  color: white;
+}
+.container hr{
+  width : 300px;
+  border-top: 4px solid grey;
+}
+.container img{
+  width: 500px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.about{
+  background-image: url('../img/15d80cc97cadf95f17258bc849b67b36.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.portfolio{
+  background-image: url('../img/juri-noga-1092743-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+
+}
+.contact{
+  background-image: url('../img/205799f717b9197.jpg'),url('../img/205799f717b9197.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+section{
+  min-height: 600px;
+}
+.contact{
+  min-height: 800px;
+}
+.footer{
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
